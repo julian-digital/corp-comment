@@ -205,31 +205,6 @@ textarea::selection {
   color: rgba(255, 255, 255, 0.85);
   background-color: rgba(255, 255, 255, 0.05);
 }
-/* 
-textarea::placeholder {
-  opacity: 0;
-}
-
-textarea:focus + label,
-textarea:not(:placeholder-shown) + label {
-  opacity: 0;
-} */
-
-/* label {
-  position: absolute;
-  top: 13.5px;
-  left: 20px;
-  color: #fff;
-  opacity: 0.42;
-  pointer-events: none;
-}
-
-label::selection,
-label *::selection {
-  color: rgba(255, 255, 255, 0.85);
-  background-color: rgba(255, 255, 255, 0.05);
-} */
-
 label svg {
   margin-bottom: -3px;
   margin-left: 4px;

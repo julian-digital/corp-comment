@@ -1,27 +1,20 @@
-# React + TypeScript + Vite
+# CorpComment 🏢💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Give Feedback. Publicly.**
 
-Currently, two official plugins are available:
+CorpComment is a **TypeScript + React** application that allows users to **share feedback about companies, upvote comments, and filter reviews** based on company names. The app makes real **GET and POST requests** to fetch and submit data, ensuring dynamic updates and a smooth user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 **Key Features:**  
+✔️ **Post Comments** – Users can submit feedback using company hashtags.  
+✔️ **Upvote System** – Engage with feedback by upvoting relevant comments.  
+✔️ **Filtering by Company** – View feedback specific to a brand with one click.  
+✔️ **Real API Requests** – Data is **fetched via GET** and **submitted via POST** for real-time updates.  
+✔️ **Data Validation** – Ensures proper input formatting before publishing.  
+✔️ **State Management with Zustand** – Avoids prop drilling for efficient state handling.
 
-## Expanding the ESLint configuration
+🛠 **Tech Stack:**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React + TypeScript (TSX)** – Type-safe UI components
+- **Zustand** – Lightweight global state management
+- **Fetch API** – For **real-time** API requests
+- **CSS Modules** – Clean and modern styling
